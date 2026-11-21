@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota Agya 1.2 G CVT - Red Edition</title>
+    <style>
+        /* Mengatur tampilan dasar halaman */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Kartu utama showcase mobil */
+        .car-card {
+            background-color: #1e1e1e;
+            border: 2px solid #e60000;
+            border-radius: 16px;
+            max-width: 480px;
+            width: 100%;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(230, 0, 0, 0.25);
+        }
+
+        /* Bagian visual mobil merah (dibuat dengan CSS) */
+        .car-banner {
+            background: linear-gradient(135deg, #b30000, #ff1a1a);
+            padding: 35px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .badge {
+            background-color: #121212;
+            color: #ff4d4d;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* Ilustrasi siluet mobil merah sederhana pakai CSS */
+        .car-graphic {
+            margin: 25px auto 10px;
+            width: 220px;
+            height: 75px;
+            position: relative;
+        }
+
+        .car-roof {
+            width: 120px;
+            height: 35px;
+            background-color: #ff3333;
+            border: 3px solid #ffffff;
+            border-bottom: none;
+            border-radius: 30px 45px 0 0;
+            margin: 0 auto;
+        }
+
+        .car-body {
+            width: 210px;
+            height: 38px;
+            background-color: #cc0000;
+            border: 3px solid #ffffff;
+            border-radius: 15px 25px 10px 10px;
+            margin: -2px auto 0;
+            position: relative;
+        }
+
+        .wheel {
+            width: 34px;
+            height: 34px;
+            background-color: #1a1a1a;
+            border: 4px solid #cccccc;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -16px;
+        }
+
+        .wheel-left { left: 25px; }
+        .wheel-right { right: 25px; }
+
+        /* Bagian detail spesifikasi */
+        .car-info {
+            padding: 25px;
+        }
+
+        .car-info h1 {
+            font-size: 24px;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            color: #aaaaaa;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .specs-list {
+            list-style: none;
+            margin-bottom: 22px;
+        }
+
+        .specs-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #2e2e2e;
+            font-size: 14px;
+        }
+
+        .specs-list li span:first-child {
+            color: #999999;
+        }
+
+        .specs-list li span:last-child {
+            font-weight: bold;
+            color: #f2f2f2;
+        }
+
+        /* Tombol target tabungan */
+        .goal-box {
+            background-color: #291414;
+            border-left: 4px solid #ff1a1a;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #ffcccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="car-card">
+        <div class="car-banner">
+            <span class="badge">2025 Edition • Red Metallic</span>
+            
+            <!-- Ilustrasi Mobil Agya Merah dengan CSS -->
+            <div class="car-graphic">
+                <div class="car-roof"></div>
+                <div class="car-body">
+                    <div class="wheel wheel-left"></div>
+                    <div class="wheel wheel-right"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car-info">
+            <h1>Toyota Agya 1.2 G CVT</h1>
+            <p class="subtitle">Compact City Hatchback • Daily Commuter Target</p>
+
+            <ul class="specs-list">
+                <li><span>Engine</span> <span>1.2L 3-Cylinder Dual VVT-i</span></li>
+                <li><span>Transmission</span> <span>D-CVT Automatic</span></li>
+                <li><span>Exterior Color</span> <span>Red Metallic</span></li>
+                <li><span>Target Unit</span> <span>2025 Second-Hand</span></li>
+            </ul>
+
+            <div class="goal-box">
+                <strong>2029–2030 Career Milestone:</strong><br>
+                Save Rp7,000,000/month from Web Developer salary in Jakarta for 1 year (Rp84,000,000) toward this car.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
